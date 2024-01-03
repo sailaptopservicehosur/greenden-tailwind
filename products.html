@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!--Tailwid CSS CDN LINK-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+    
+
+    <!--Responsive Navbar-->
+<nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+
+    <h1 class="text-2xl">Greenden</h1>
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 md:hidden">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+    </svg>
+  
+  
+    <ul class="gap-5 text-gray-600 md:flex hidden">
+      <li>
+        <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./products.html">Products</a>
+      </li>
+      <li>
+        <a class="hover:underline hover:text-black" href="./Contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!--Our Products-->
+  <section class="text-center">
+<h1 class="font-bold text-3xl mt-3 text-center">Our Products</h1>
+<input class="border border-black p-2 mt-1" style="width: 80%;" placeholder="Search For A Product..">
+<div class="grid grid-cols-2 md:grid-cols-4 m-5">
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl translate-x-2 mt-5" src="./images/bestseller-5.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl translate-x-2 mt-5" src="./images/bestseller-6.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl translate-x-2 mt-5" src="./images/bestseller-7.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl translate-x-2 mt-5" src="./images/bestseller-8.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl mt-5 " src="./images/bestseller-9.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl mt-5" src="./images/bestseller-10.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl mt-5 " src="./images/bestseller-11.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+
+    <div class="text-center">
+        <img class="inline transform hover:-translate-y-2 hover:shadow-xl mt-5 " src="./images/bestseller-12.png" alt="">
+        <p>indoor Plant</p>
+        <p>$20</p>
+    </div>
+</div>
+
+  </section>
+
+  <section>
+    <div class="bg-green-100 p-10 mt-4">
+      <h1 class="font-bold text-3xl m-4">Greenden</h1>
+      <p class="m-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, amet.</p>
+      <p class="m-4 ">@ 2021 Greenday.com</p>
+    </div>
+    
+    </section>
+</body>
+</html>
